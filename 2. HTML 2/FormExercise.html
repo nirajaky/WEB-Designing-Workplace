@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+</head>
+<body>
+	<strong>Register</strong>
+	<hr />
+	<form>
+		<div>
+			<label for="fName">First Name:</label>
+			<input id="fName" type="text" placeholder="John" name="fName" required="">
+			<label for="lName">Last Name:</label>
+			<input id="lName" type="text" placeholder="Smith" name="lName" required="">
+		</div>
+		<div>
+			<label for="M">Male</label>
+			<input id="M"type="radio" name="Gender" value="MALE">
+			<label for="F">Female</label>
+			<input id="F"type="radio" name="Gender" value="FEMALE">
+			<label for="O">Other</label>
+			<input id="O"type="radio" name="Gender" value="Other">
+		</div>
+		<div>
+			<label for="Email">Email:</label>
+			<input id="Email" type="Email" name="mail" placeholder="your email" required="">
+			<label for="Pass">Password:</label>
+			<input id="Pass" type="password" name="pass" required="">
+		</div>
+		<div>
+			<label for="Bday">Birthday:</label>
+			<select name="Month" id="Bday">
+				<option>Month</option>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+			</select>
+			<select name="Day" id="Bday">
+				<option>Day</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+			<select name="Year" id="Bday">
+				<option>Year</option>
+				<option>2000</option>
+				<option>2001</option>
+				<option>2002</option>
+			</select>
+		</div>
+		<div>
+			<label for="agree">I agree to the term and conditions</label>  
+			<input id="agree" type="checkbox" name="checkbox" required="" value="Tick">
+			
+		</div>
+		<button>Submit</button>
+	</form>
+
+</body>
+</html>
