@@ -1,0 +1,15 @@
+body {
+	background: orange;
+}
+li {
+	border: 2px solid green;
+}
+#spl {
+	background: yellow;
+}
+.chk {
+	text-decoration: wavy overline lime;
+}
+.ssc {
+	text-decoration: line-through;
+}
