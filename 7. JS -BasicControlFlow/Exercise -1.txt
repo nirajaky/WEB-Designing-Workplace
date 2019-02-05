@@ -1,0 +1,11 @@
+var x = 10;
+
+undefined
+
+var y = "b";
+
+undefined
+
+y ==="a" || x >=10;
+
+true
