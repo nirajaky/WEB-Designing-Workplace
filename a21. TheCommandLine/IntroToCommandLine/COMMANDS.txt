@@ -1,0 +1,15 @@
+ls (in Windows == dir)
+cd file_name (change Directory)
+cd ..(in linux) $$ cd.. or cd ..(in windows) --> Get Back to One Level
+clear(in Linux) && cls (in windows)
+
+--------- CREATE FILE OR DIRACTORY-------------
+
+touch red.txt (in Linux) && type nul>red.txt(in Windows)
+mkdir colors (same for both)
+
+---------DELETE FILE OR FOLDER------------
+
+rm green.txt ( in Windows = del green.txt)
+rm -rf colors (in Windows = rmdir colors)
+
