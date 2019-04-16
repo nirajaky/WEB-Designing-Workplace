@@ -1,0 +1,18 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Express App Assignment with path variables",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nirajaky"
+  },
+  "author": "Niraj Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
