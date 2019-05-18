@@ -1,0 +1,14 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "MongooseDataBase",
+  "main": "Cats.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Niraj Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.5.9"
+  }
+}
