@@ -14,7 +14,7 @@ IN MONGO SHELL           IN MONGOOSE NPM
 ==============           ========================================
 C --- insert()           .create(data. callBack)
 R --- find()             .find({}, callBack)
-U --- update()           .findByIdandUpdate(id, data, callBack)
+U --- update()           .findByIdAndUpdate(id, data, callBack)
 D --- delete()           .findByIdAndRemove(if, callBackForError)
 
 -----------------------------------------------------------------
