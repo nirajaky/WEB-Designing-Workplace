@@ -12,9 +12,9 @@ mongo = To enter into Mongo Shell
 
 IN MONGO SHELL           IN MONGOOSE NPM
 ==============           ========================================
-C --- insert()           .create(data. callBack)
+C --- insert()           .create(dataObject, callBack)
 R --- find()             .find({}, callBack)
-U --- update()           .findByIdAndUpdate(id, data, callBack)
+U --- update()           .findByIdAndUpdate(id, dataObject, callBack)
 D --- delete()           .findByIdAndRemove(if, callBackForError)
 
 -----------------------------------------------------------------
