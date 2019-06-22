@@ -1,6 +1,6 @@
 #Authentication
 
-MIDDLEWARE: Code that runs before our callback function. It actually rus along with our path.
+MIDDLEWARE: Code that runs before our callback function. It actually runs along with our path.
 
 ##Intro to Auth
 * What tools are we using?
