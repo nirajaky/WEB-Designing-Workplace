@@ -31,6 +31,7 @@ app.get("/", function (req, res) {
     res.render("home.ejs");
 });
 
+// MIDDLEWARE ADDED
 app.get("/secret", isLoggedIn, function (req, res) {
     res.render("secret.ejs");
 });
