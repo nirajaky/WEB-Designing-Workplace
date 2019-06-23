@@ -9,6 +9,7 @@ var express                 = require("express"),
 
 mongoose.connect('mongodb://localhost/my_database', { useNewUrlParser: true });
 
+// PASSPORT CONFIGURATION
 app.use(require("express-session")({
     secret: "My Name is Niraj",
     resave: false,
