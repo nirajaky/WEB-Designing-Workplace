@@ -1,0 +1,7 @@
+function cap(str) {
+    for(var i =0; i<str.length; i++) {
+        str = str.charAt(0).toUpperCase() + str.slice(1);
+        if(str[i] == " ") {
+            str = str.slice(0,i) + " " + str[i+1].toUpperCase() + str.slice(i+2);}
+    } console.log(str);
+}
